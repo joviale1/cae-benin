@@ -1,0 +1,6 @@
+{
+  "name": "Centre d'Appui aux Entrepreneurs",
+  "description": "Portail officiel du Centre d'Appui aux Entrepreneurs. Accompagnement, formations, conseil en gestion et services administratifs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
