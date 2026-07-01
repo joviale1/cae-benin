@@ -125,7 +125,7 @@ export const initialProjects: ProjectItem[] = [
     entrepreneur: 'Koffi Ségbé',
     sector: 'Agro-alimentaire & Transformation',
     description: 'Accompagnement de l’idée au business plan et recherche de financement pour une unité moderne de séchage et conditionnement d’ananas à Allada.',
-    imageUrl: '/images/services_brainstorming_benin_1782833335428.jpg',
+    imageUrl: '/images/services_brainstorming_benin_1782833335428.webp',
     date: 'Mai 2026'
   },
   {
@@ -134,7 +134,7 @@ export const initialProjects: ProjectItem[] = [
     entrepreneur: 'Abla Djigbode',
     sector: 'Mode & Artisanat d’Art Béninois',
     description: 'Création d’entreprise, accompagnement administratif et mise en place d’une stratégie marketing digital pour lancer une marque de vêtements en pagne tissé (Kanvo).',
-    imageUrl: '/images/card_digital_marketing_1782908183274.jpg',
+    imageUrl: '/images/card_digital_marketing_1782908183274.webp',
     date: 'Avril 2026'
   },
   {
@@ -143,7 +143,7 @@ export const initialProjects: ProjectItem[] = [
     entrepreneur: 'Saliou Mensah',
     sector: 'Éducation & Technologies de l’Information',
     description: 'Aide à la structuration juridique et rédaction d’un plan d’affaires solide ayant permis d’obtenir un financement d’amorçage auprès du programme national d’appui.',
-    imageUrl: '/images/about_coaching_benin_1782833321123.jpg',
+    imageUrl: '/images/about_coaching_benin_1782833321123.webp',
     date: 'Juin 2026'
   }
 ];
@@ -156,7 +156,7 @@ export const newsData: NewsItem[] = [
     category: 'financement',
     date: '28 Juin 2026',
     readTime: '3 min',
-    imageUrl: '/images/card_pitch_investor_1782908208185.jpg'
+    imageUrl: '/images/card_pitch_investor_1782908208185.webp'
   },
   {
     id: 'news-2',
@@ -165,7 +165,7 @@ export const newsData: NewsItem[] = [
     category: 'conseils',
     date: '25 Juin 2026',
     readTime: '5 min',
-    imageUrl: '/images/card_sales_strategy_1782908156281.jpg'
+    imageUrl: '/images/card_sales_strategy_1782908156281.webp'
   },
   {
     id: 'news-3',
@@ -174,7 +174,7 @@ export const newsData: NewsItem[] = [
     category: 'programme',
     date: '20 Juin 2026',
     readTime: '4 min',
-    imageUrl: '/images/card_financial_office_1782908169678.jpg'
+    imageUrl: '/images/card_financial_office_1782908169678.webp'
   },
   {
     id: 'news-4',
@@ -183,7 +183,7 @@ export const newsData: NewsItem[] = [
     category: 'astuces',
     date: '14 Juin 2026',
     readTime: '6 min',
-    imageUrl: '/images/academy_training_benin_1782901047713.jpg'
+    imageUrl: '/images/academy_training_benin_1782901047713.webp'
   }
 ];
 
@@ -252,7 +252,7 @@ export const testimonialsData: TestimonialItem[] = [
     company: 'Nature & Beauté Bénin Sarl',
     text: 'Grâce au Centre d’Appui aux Entrepreneurs de Cotonou, j’ai pu formaliser mon activité cosmétique en toute sérénité. Leur maîtrise des procédures de l’APIEx et de la DGI m’a fait gagner un temps précieux et permis de décrocher mes premiers contrats de distribution.',
     rating: 5,
-    avatarUrl: '/images/client_happy_contract_benin_1782833365960.jpg'
+    avatarUrl: '/images/client_happy_contract_benin_1782833365960.webp'
   },
   {
     id: 'test-2',
@@ -261,7 +261,7 @@ export const testimonialsData: TestimonialItem[] = [
     company: 'Dossou Logistique Parakou',
     text: 'La formation intensive en gestion d’entreprise et comptabilité pratique que j’ai suivie a radicalement changé ma façon de piloter ma trésorerie. C’est concret, adapté aux realities du Bénin et immédiatement applicable. Je recommande vivement.',
     rating: 5,
-    avatarUrl: '/images/coaching_afrique_strategie_1782836353896.jpg'
+    avatarUrl: '/images/coaching_afrique_strategie_1782836353896.webp'
   },
   {
     id: 'test-3',
@@ -270,6 +270,6 @@ export const testimonialsData: TestimonialItem[] = [
     company: 'Cotonou Tech Services',
     text: 'Le diagnostic d’entreprise réalisé par leurs consultants d’affaires a été un électrochoc pour notre startup. Nous avons restructuré nos offres commerciales et relancé notre chiffre d’affaires en hausse de 40% en seulement 4 mois d’activité.',
     rating: 5,
-    avatarUrl: '/images/about_coaching_benin_1782833321123.jpg'
+    avatarUrl: '/images/about_coaching_benin_1782833321123.webp'
   }
 ];

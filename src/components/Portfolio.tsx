@@ -73,7 +73,7 @@ export default function Portfolio({ customProjects, onAddProject }: PortfolioPro
     }
 
     // Default image if no upload was made
-    const finalImage = imagePreview || '/images/hero_benin_entrepreneurs_1782833306681.jpg';
+    const finalImage = imagePreview || '/images/hero_benin_entrepreneurs_1782833306681.webp';
 
     const newProj: ProjectItem = {
       id: `custom-proj-${Date.now()}`,
@@ -229,12 +229,11 @@ export default function Portfolio({ customProjects, onAddProject }: PortfolioPro
 
                   {imagePreview ? (
                     <div className="space-y-3" id="upload-preview-container">
-                      <img
-                        src={imagePreview}
+                      <img src={imagePreview}
                         alt="Aperçu de l'image"
                         className="w-32 h-32 object-cover rounded-xl mx-auto shadow-sm border border-emerald-200"
                         referrerPolicy="no-referrer"
-                      />
+                       loading="lazy" />
                       <p className="text-[11px] text-emerald-600 font-bold flex items-center justify-center gap-1">
                         <Check className="w-4 h-4" /> Image sélectionnée avec succès
                       </p>

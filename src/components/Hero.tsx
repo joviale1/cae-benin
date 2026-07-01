@@ -27,27 +27,27 @@ export default function Hero({ onOpenAppointment, onOpenWhatsApp, onNavigateToSe
 
   const slides: SlideItem[] = [
     {
-      image: '/images/coaching_afrique_strategie_1782836353896.jpg',
+      image: '/images/coaching_afrique_strategie_1782836353896.webp',
       title: 'Réunion Stratégique',
       description: 'Conseil business sur-mesure et plan de croissance avec nos experts'
     },
     {
-      image: '/images/about_coaching_benin_1782833321123.jpg',
+      image: '/images/about_coaching_benin_1782833321123.webp',
       title: 'Coaching Business',
       description: 'Accompagnement de proximité par des conseillers qualifiés et d’expérience'
     },
     {
-      image: '/images/academy_training_benin_1782901047713.jpg',
+      image: '/images/academy_training_benin_1782901047713.webp',
       title: 'Formation Entrepreneuriale',
       description: 'Ateliers collectifs pratiques pour propulser votre réussite commerciale'
     },
     {
-      image: '/images/card_financial_office_1782908169678.jpg',
+      image: '/images/card_financial_office_1782908169678.webp',
       title: 'Analyse Financière & Business Plan',
       description: 'Projections financières robustes pour rassurer vos partenaires bancaires'
     },
     {
-      image: '/images/card_business_creation_1782908196304.jpg',
+      image: '/images/card_business_creation_1782908196304.webp',
       title: 'Création d’Entreprise',
       description: 'Formalisation légale, RCCM, IFU et immatriculation APIEx rapide'
     }
