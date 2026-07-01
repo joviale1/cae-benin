@@ -86,7 +86,7 @@ export default function ServicesList({
           <div className="lg:col-span-5">
             <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/3] border border-slate-200/80 group">
               <img 
-                src="/src/assets/images/services_brainstorming_benin_1782833335428.jpg" 
+                src="/images/services_brainstorming_benin_1782833335428.jpg" 
                 alt="Équipe béninoise analysant des graphiques financiers" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 referrerPolicy="no-referrer"

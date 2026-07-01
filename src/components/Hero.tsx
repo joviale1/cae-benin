@@ -27,27 +27,27 @@ export default function Hero({ onOpenAppointment, onOpenWhatsApp, onNavigateToSe
 
   const slides: SlideItem[] = [
     {
-      image: '/src/assets/images/hero_slide_strategy_1782910184252.jpg',
+      image: '/images/hero_slide_strategy_1782910184252.jpg',
       title: 'Réunion Stratégique',
       description: 'Conseil business sur-mesure et plan de croissance avec nos experts'
     },
     {
-      image: '/src/assets/images/coaching_afrique_strategie_1782836353896.jpg',
+      image: '/images/coaching_afrique_strategie_1782836353896.jpg',
       title: 'Coaching Business',
       description: 'Accompagnement de proximité par des conseillers qualifiés et d’expérience'
     },
     {
-      image: '/src/assets/images/hero_slide_formation_1782910199655.jpg',
+      image: '/images/hero_slide_formation_1782910199655.jpg',
       title: 'Formation Entrepreneuriale',
       description: 'Ateliers collectifs pratiques pour propulser votre réussite commerciale'
     },
     {
-      image: '/src/assets/images/hero_slide_business_plan_1782910229594.jpg',
+      image: '/images/hero_slide_business_plan_1782910229594.jpg',
       title: 'Analyse Financière & Business Plan',
       description: 'Projections financières robustes pour rassurer vos partenaires bancaires'
     },
     {
-      image: '/src/assets/images/hero_slide_signature_1782910217023.jpg',
+      image: '/images/hero_slide_signature_1782910217023.jpg',
       title: 'Création d’Entreprise',
       description: 'Formalisation légale, RCCM, IFU et immatriculation APIEx rapide'
     }

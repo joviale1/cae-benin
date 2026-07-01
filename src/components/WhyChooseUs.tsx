@@ -60,7 +60,7 @@ export default function WhyChooseUs() {
         <div className="grid lg:grid-cols-12 gap-8 items-center mb-16 bg-white p-6 sm:p-8 rounded-3xl border border-slate-100 shadow-xl" id="handshake-teaser">
           <div className="lg:col-span-5 relative rounded-2xl overflow-hidden shadow-md aspect-square max-w-[340px] mx-auto lg:mx-0 group">
             <img 
-              src="/src/assets/images/handshake_success_benin_1782833348521.jpg" 
+              src="/images/handshake_success_benin_1782833348521.jpg" 
               alt="Partenariat et poignée de main de succès au Bénin" 
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               referrerPolicy="no-referrer"

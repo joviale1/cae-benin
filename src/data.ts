@@ -114,18 +114,14 @@ export const servicesData: ServiceItem[] = [
     name: 'Conception Graphique (Logo, Affiche)',
     price: 20000,
     category: 'digital',
-    description: 'Création d’une identité visuelle unique comprenant votre logo, vos cartes de visite et vos flyers promotionnels.'
-  }
-];
-
-export const initialProjects: ProjectItem[] = [
+    description: 'Création d’une identité visuelle unique comprenant votre export const initialProjects: ProjectItem[] = [
   {
     id: 'proj-1',
     title: 'Agro-Innov Bénin',
     entrepreneur: 'Koffi Ségbé',
     sector: 'Agro-alimentaire & Transformation',
     description: 'Accompagnement de l’idée au business plan et recherche de financement pour une unité moderne de séchage et conditionnement d’ananas à Allada.',
-    imageUrl: '/src/assets/images/services_brainstorming_benin_1782833335428.jpg',
+    imageUrl: '/images/services_brainstorming_benin_1782833335428.jpg',
     date: 'Mai 2026'
   },
   {
@@ -134,7 +130,7 @@ export const initialProjects: ProjectItem[] = [
     entrepreneur: 'Abla Djigbode',
     sector: 'Mode & Artisanat d’Art Béninois',
     description: 'Création d’entreprise, accompagnement administratif et mise en place d’une stratégie marketing digital pour lancer une marque de vêtements en pagne tissé (Kanvo).',
-    imageUrl: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&q=80&w=600',
+    imageUrl: '/images/card_digital_marketing_1782908183274.jpg',
     date: 'Avril 2026'
   },
   {
@@ -143,7 +139,7 @@ export const initialProjects: ProjectItem[] = [
     entrepreneur: 'Saliou Mensah',
     sector: 'Éducation & Technologies de l’Information',
     description: 'Aide à la structuration juridique et rédaction d’un plan d’affaires solide ayant permis d’obtenir un financement d’amorçage auprès du programme national d’appui.',
-    imageUrl: '/src/assets/images/about_coaching_benin_1782833321123.jpg',
+    imageUrl: '/images/about_coaching_benin_1782833321123.jpg',
     date: 'Juin 2026'
   }
 ];
@@ -156,7 +152,7 @@ export const newsData: NewsItem[] = [
     category: 'financement',
     date: '28 Juin 2026',
     readTime: '3 min',
-    imageUrl: 'https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&q=80&w=600'
+    imageUrl: '/images/card_pitch_investor_1782908208185.jpg'
   },
   {
     id: 'news-2',
@@ -165,7 +161,7 @@ export const newsData: NewsItem[] = [
     category: 'conseils',
     date: '25 Juin 2026',
     readTime: '5 min',
-    imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600'
+    imageUrl: '/images/card_sales_strategy_1782908156281.jpg'
   },
   {
     id: 'news-3',
@@ -174,7 +170,7 @@ export const newsData: NewsItem[] = [
     category: 'programme',
     date: '20 Juin 2026',
     readTime: '4 min',
-    imageUrl: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=600'
+    imageUrl: '/images/card_financial_office_1782908169678.jpg'
   },
   {
     id: 'news-4',
@@ -183,7 +179,7 @@ export const newsData: NewsItem[] = [
     category: 'astuces',
     date: '14 Juin 2026',
     readTime: '6 min',
-    imageUrl: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80&w=600'
+    imageUrl: '/images/academy_training_benin_1782901047713.jpg'
   }
 ];
 
@@ -252,16 +248,16 @@ export const testimonialsData: TestimonialItem[] = [
     company: 'Nature & Beauté Bénin Sarl',
     text: 'Grâce au Centre d’Appui aux Entrepreneurs de Cotonou, j’ai pu formaliser mon activité cosmétique en toute sérénité. Leur maîtrise des procédures de l’APIEx et de la DGI m’a fait gagner un temps précieux et permis de décrocher mes premiers contrats de distribution.',
     rating: 5,
-    avatarUrl: '/src/assets/images/client_happy_contract_benin_1782833365960.jpg'
+    avatarUrl: '/images/client_happy_contract_benin_1782833365960.jpg'
   },
   {
     id: 'test-2',
     name: 'Samuel Dossou',
     role: 'Directeur Général',
     company: 'Dossou Logistique Parakou',
-    text: 'La formation intensive en gestion d’entreprise et comptabilité pratique que j’ai suivie a radicalement changé ma façon de piloter ma trésorerie. C’est concret, adapté aux réalités du Bénin et immédiatement applicable. Je recommande vivement.',
+    text: 'La formation intensive en gestion d’entreprise et comptabilité pratique que j’ai suivie a radicalement changé ma façon de piloter ma trésorerie. C’est concret, adapté aux realities du Bénin et immédiatement applicable. Je recommande vivement.',
     rating: 5,
-    avatarUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=120'
+    avatarUrl: '/images/coaching_afrique_strategie_1782836353896.jpg'
   },
   {
     id: 'test-3',
@@ -269,6 +265,10 @@ export const testimonialsData: TestimonialItem[] = [
     role: 'Co-fondateur',
     company: 'Cotonou Tech Services',
     text: 'Le diagnostic d’entreprise réalisé par leurs consultants d’affaires a été un électrochoc pour notre startup. Nous avons restructuré nos offres commerciales et relancé notre chiffre d’affaires en hausse de 40% en seulement 4 mois d’activité.',
+    rating: 5,
+    avatarUrl: '/images/about_coaching_benin_1782833321123.jpg'
+  }
+];� par leurs consultants d’affaires a été un électrochoc pour notre startup. Nous avons restructuré nos offres commerciales et relancé notre chiffre d’affaires en hausse de 40% en seulement 4 mois d’activité.',
     rating: 5,
     avatarUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=120'
   }
