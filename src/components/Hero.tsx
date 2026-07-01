@@ -3,7 +3,6 @@ import {
   Phone, 
   MessageSquare, 
   Sparkles, 
-  CheckCircle, 
   ChevronLeft, 
   ChevronRight,
   ShieldCheck,
@@ -33,24 +32,24 @@ export default function Hero({ onOpenAppointment, onOpenWhatsApp, onNavigateToSe
       description: 'Conseil business sur-mesure et plan de croissance avec nos experts'
     },
     {
-      image: '/src/assets/images/hero_slide_formation_1782910199655.jpg',
-      title: 'Formation Professionnelle',
-      description: 'Ateliers pratiques pour entrepreneurs et cadres d\'entreprise'
+      image: '/src/assets/images/coaching_afrique_strategie_1782836353896.jpg',
+      title: 'Coaching Business',
+      description: 'Accompagnement de proximité par des conseillers qualifiés et d’expérience'
     },
     {
-      image: '/src/assets/images/hero_slide_signature_1782910217023.jpg',
-      title: 'Création d\'Entreprise',
-      description: 'Formalisation légale, RCCM, IFU et accompagnement APIEx en 48h'
+      image: '/src/assets/images/hero_slide_formation_1782910199655.jpg',
+      title: 'Formation Entrepreneuriale',
+      description: 'Ateliers collectifs pratiques pour propulser votre réussite commerciale'
     },
     {
       image: '/src/assets/images/hero_slide_business_plan_1782910229594.jpg',
-      title: 'Business Plans d\'Excellence',
-      description: 'Projections financières robustes pour rassurer vos partenaires'
+      title: 'Analyse Financière & Business Plan',
+      description: 'Projections financières robustes pour rassurer vos partenaires bancaires'
     },
     {
-      image: '/src/assets/images/hero_slide_entrepreneur_1782910245884.jpg',
-      title: 'Émergence & Croissance',
-      description: 'Augmentez vos ventes et bâtissez une entreprise solide au Bénin'
+      image: '/src/assets/images/hero_slide_signature_1782910217023.jpg',
+      title: 'Création d’Entreprise',
+      description: 'Formalisation légale, RCCM, IFU et immatriculation APIEx rapide'
     }
   ];
 
@@ -70,17 +69,8 @@ export default function Hero({ onOpenAppointment, onOpenWhatsApp, onNavigateToSe
     return () => clearInterval(timer);
   }, [nextSlide]);
 
-  const bullets = [
-    'Attirer plus de clients',
-    'Développer une publicité efficace',
-    'Mieux gérer leur entreprise et leurs finances',
-    'Augmenter leurs ventes et leurs bénéfices',
-    'Obtenir des financements',
-    'Construire une entreprise solide, rentable et durable'
-  ];
-
   return (
-    <section className="relative overflow-hidden bg-slate-50 py-16 sm:py-24 lg:py-32" id="accueil">
+    <section className="relative overflow-hidden bg-slate-50 py-16 sm:py-24 lg:py-28 animate-fade-in" id="accueil">
       {/* Absolute Decorative Background Patterns */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-full pointer-events-none opacity-20">
         <div className="absolute top-10 left-10 w-72 h-72 rounded-full bg-blue-300 blur-3xl"></div>
@@ -93,42 +83,33 @@ export default function Hero({ onOpenAppointment, onOpenWhatsApp, onNavigateToSe
           {/* Slogan and Text Column */}
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
             
-            {/* Tagline / Badge */}
-            <div className="inline-flex items-center space-x-1.5 px-3 py-1.5 bg-blue-50 border border-blue-100 rounded-full text-[#0a3b8b]" id="hero-badge">
+            {/* Slogan / Badge */}
+            <div className="inline-flex items-center space-x-1.5 px-3.5 py-2 bg-blue-50 border border-blue-100 rounded-full text-[#0a3b8b]" id="hero-badge">
               <Sparkles className="w-4 h-4 text-[#ff7b00]" />
               <span className="text-xs font-black tracking-wide uppercase">Votre réussite, notre métier</span>
             </div>
 
-            {/* Slogan Fort */}
+            {/* Titre Principal */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-black text-slate-900 tracking-tight leading-tight" id="hero-title">
-              Transformez votre entreprise <br />
+              Centre d’Appui aux<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0a3b8b] to-[#ff7b00]">
-                en une véritable réussite.
+                Entrepreneurs
               </span>
             </h1>
 
-            {/* Presentation Short Text and bullet list */}
+            {/* Sous-titre & Description */}
             <div className="space-y-4">
-              <p className="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto lg:mx-0 leading-relaxed font-semibold" id="hero-subtitle">
-                Nous accompagnons les entrepreneurs, commerçants, artisans, agriculteurs, startups et PME du Bénin pour :
-              </p>
+              <h2 className="text-base sm:text-lg font-extrabold text-[#0a3b8b] leading-relaxed max-w-2xl mx-auto lg:mx-0" id="hero-subtitle">
+                Transformez vos idées en entreprises solides, rentables et légales au Bénin 🇧🇯
+              </h2>
               
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-2xl mx-auto lg:mx-0 text-left">
-                {bullets.map((bullet, idx) => (
-                  <div key={idx} className="flex items-start space-x-2">
-                    <CheckCircle className="w-4 h-4 text-emerald-500 shrink-0 mt-0.5" />
-                    <span className="text-xs sm:text-sm font-medium text-slate-700 leading-tight">{bullet}</span>
-                  </div>
-                ))}
-              </div>
-
-              <p className="text-[#0a3b8b] text-sm sm:text-base font-black tracking-wide pt-2">
-                Votre réussite commence ici.
+              <p className="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto lg:mx-0 leading-relaxed font-semibold" id="hero-description">
+                Nous accompagnons les entrepreneurs, commerçants et PME dans la création, structuration et croissance de leurs activités.
               </p>
             </div>
 
             {/* Slogan and Call to action buttons */}
-            <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start pt-2" id="hero-ctas">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4" id="hero-ctas">
               
               {/* Demander un accompagnement Button */}
               <button
@@ -150,22 +131,6 @@ export default function Hero({ onOpenAppointment, onOpenWhatsApp, onNavigateToSe
                 <span>💬 Écrire sur WhatsApp</span>
               </button>
 
-            </div>
-
-            {/* Trust points */}
-            <div className="grid grid-cols-3 gap-4 pt-6 border-t border-slate-200/60 max-w-lg mx-auto lg:mx-0 text-left">
-              <div>
-                <span className="block text-xl sm:text-2xl font-extrabold text-[#0a3b8b]">500+</span>
-                <span className="text-[10px] sm:text-xs font-medium text-slate-500">Porteurs formés</span>
-              </div>
-              <div>
-                <span className="block text-xl sm:text-2xl font-extrabold text-[#ff7b00]">200+</span>
-                <span className="text-[10px] sm:text-xs font-medium text-slate-500">Projets créés</span>
-              </div>
-              <div>
-                <span className="block text-xl sm:text-2xl font-extrabold text-[#0a3b8b]">100%</span>
-                <span className="text-[10px] sm:text-xs font-medium text-slate-500">Suivi personnalisé</span>
-              </div>
             </div>
 
           </div>
@@ -259,7 +224,7 @@ export default function Hero({ onOpenAppointment, onOpenWhatsApp, onNavigateToSe
                     </div>
                     <div>
                       <p className="text-[10px] font-black text-slate-800 uppercase leading-none">Cotonou - Bénin</p>
-                      <p className="text-[9px] text-slate-500 font-bold">Immatriculation en 48h</p>
+                      <p className="text-[9px] text-slate-500 font-bold">Cabinet Agréé APIEx</p>
                     </div>
                   </div>
                   <button
@@ -297,6 +262,42 @@ export default function Hero({ onOpenAppointment, onOpenWhatsApp, onNavigateToSe
           </div>
 
         </div>
+
+        {/* 3 Statistics Segment - Affiché sous le Hero */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-16 sm:mt-24 pt-10 border-t border-slate-200/80">
+          
+          <div className="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm flex items-center space-x-4">
+            <div className="w-12 h-12 rounded-xl bg-[#0a3b8b]/10 text-[#0a3b8b] flex items-center justify-center font-black text-lg shrink-0">
+              🎓
+            </div>
+            <div>
+              <p className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">+500</p>
+              <p className="text-xs font-bold text-slate-500 uppercase tracking-wide">Porteurs formés</p>
+            </div>
+          </div>
+
+          <div className="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm flex items-center space-x-4">
+            <div className="w-12 h-12 rounded-xl bg-[#ff7b00]/10 text-[#ff7b00] flex items-center justify-center font-black text-lg shrink-0">
+              🚀
+            </div>
+            <div>
+              <p className="text-xl sm:text-2xl font-black text-[#ff7b00] tracking-tight">+200</p>
+              <p className="text-xs font-bold text-slate-500 uppercase tracking-wide">Projets créés</p>
+            </div>
+          </div>
+
+          <div className="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm flex items-center space-x-4">
+            <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center font-black text-lg shrink-0">
+              🤝
+            </div>
+            <div>
+              <p className="text-xl sm:text-2xl font-black text-emerald-600 tracking-tight">100%</p>
+              <p className="text-xs font-bold text-slate-500 uppercase tracking-wide">Suivi personnalisé</p>
+            </div>
+          </div>
+
+        </div>
+
       </div>
     </section>
   );
