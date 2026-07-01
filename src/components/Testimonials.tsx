@@ -50,6 +50,7 @@ export default function Testimonials() {
                     alt={t.name}
                     className="w-11 h-11 rounded-full object-cover border border-slate-200 shadow-sm shrink-0"
                     referrerPolicy="no-referrer"
+                    loading="lazy"
                   />
                 ) : (
                   <div className="w-11 h-11 rounded-full bg-blue-50 text-[#0a3b8b] font-black text-sm flex items-center justify-center shrink-0">

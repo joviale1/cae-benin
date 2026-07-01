@@ -294,6 +294,7 @@ export default function Portfolio({ customProjects, onAddProject }: PortfolioPro
                   alt={p.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   referrerPolicy="no-referrer"
+                  loading="lazy"
                 />
                 
                 {/* Sector Badge */}

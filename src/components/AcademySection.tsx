@@ -242,6 +242,7 @@ export default function AcademySection() {
                       alt={domain.title} 
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                       referrerPolicy="no-referrer"
+                      loading="lazy"
                     />
                     <div className="absolute top-3 left-3">
                       <div className={`w-10 h-10 rounded-2xl ${domain.lightBg} flex items-center justify-center ${domain.color} shadow-md backdrop-blur-md`}>

@@ -27,27 +27,27 @@ export default function Hero({ onOpenAppointment, onOpenWhatsApp, onNavigateToSe
 
   const slides: SlideItem[] = [
     {
-      image: '/images/hero_slide_strategy_1782910184252.jpg',
+      image: '/images/coaching_afrique_strategie_1782836353896.jpg',
       title: 'Réunion Stratégique',
       description: 'Conseil business sur-mesure et plan de croissance avec nos experts'
     },
     {
-      image: '/images/coaching_afrique_strategie_1782836353896.jpg',
+      image: '/images/about_coaching_benin_1782833321123.jpg',
       title: 'Coaching Business',
       description: 'Accompagnement de proximité par des conseillers qualifiés et d’expérience'
     },
     {
-      image: '/images/hero_slide_formation_1782910199655.jpg',
+      image: '/images/academy_training_benin_1782901047713.jpg',
       title: 'Formation Entrepreneuriale',
       description: 'Ateliers collectifs pratiques pour propulser votre réussite commerciale'
     },
     {
-      image: '/images/hero_slide_business_plan_1782910229594.jpg',
+      image: '/images/card_financial_office_1782908169678.jpg',
       title: 'Analyse Financière & Business Plan',
       description: 'Projections financières robustes pour rassurer vos partenaires bancaires'
     },
     {
-      image: '/images/hero_slide_signature_1782910217023.jpg',
+      image: '/images/card_business_creation_1782908196304.jpg',
       title: 'Création d’Entreprise',
       description: 'Formalisation légale, RCCM, IFU et immatriculation APIEx rapide'
     }
@@ -100,12 +100,27 @@ export default function Hero({ onOpenAppointment, onOpenWhatsApp, onNavigateToSe
             {/* Sous-titre & Description */}
             <div className="space-y-4">
               <h2 className="text-base sm:text-lg font-extrabold text-[#0a3b8b] leading-relaxed max-w-2xl mx-auto lg:mx-0" id="hero-subtitle">
-                Transformez vos idées en entreprises solides, rentables et légales au Bénin 🇧🇯
+                Transformez votre entreprise en une véritable réussite.🇧🇯
               </h2>
               
-              <p className="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto lg:mx-0 leading-relaxed font-semibold" id="hero-description">
-                Nous accompagnons les entrepreneurs, commerçants et PME dans la création, structuration et croissance de leurs activités.
-              </p>
+              <div className="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto lg:mx-0 leading-relaxed font-semibold text-left inline-block lg:block" id="hero-description">
+                <p className="mb-3 text-slate-700 font-bold">Nous aidons les entrepreneurs, commerçants et PME à :</p>
+                <ul className="space-y-2 mt-2 pl-1">
+                  {[
+                    "Attirer plus de clients.",
+                    "Faire une publicité efficace.",
+                    "Mieux gérer leur entreprise et leurs finances.",
+                    "Augmenter leurs ventes.",
+                    "Construire une entreprise solide et rentable."
+                  ].map((item, idx) => (
+                    <li key={idx} className="flex items-center space-x-2 text-slate-600 text-xs sm:text-sm font-semibold">
+                      <span className="w-5 h-5 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center font-bold text-[10px] shrink-0">✓</span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="mt-4 text-[#ff7b00] font-black text-sm sm:text-base">Votre réussite commence ici.</p>
+              </div>
             </div>
 
             {/* Slogan and Call to action buttons */}
@@ -118,7 +133,7 @@ export default function Hero({ onOpenAppointment, onOpenWhatsApp, onNavigateToSe
                 id="hero-cta-appointment"
               >
                 <Phone className="w-4 h-4 shrink-0" />
-                <span>📞 Demander un accompagnement</span>
+                <span>Demander un accompagnement</span>
               </button>
 
               {/* Écrire sur WhatsApp Button */}
@@ -128,7 +143,7 @@ export default function Hero({ onOpenAppointment, onOpenWhatsApp, onNavigateToSe
                 id="hero-cta-whatsapp"
               >
                 <MessageSquare className="w-4 h-4 shrink-0 fill-emerald-50 text-emerald-500" />
-                <span>💬 Écrire sur WhatsApp</span>
+                <span>Écrire sur WhatsApp</span>
               </button>
 
             </div>

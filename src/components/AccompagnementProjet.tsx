@@ -248,6 +248,7 @@ export default function AccompagnementProjet() {
                 alt="Coaching stratégique au Bénin - Centre d'Appui aux Entrepreneurs" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 referrerPolicy="no-referrer"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent flex flex-col justify-end p-6">
                 <span className="bg-[#ff7b00] text-white text-[9px] font-black uppercase tracking-widest px-2 py-0.5 rounded-md w-fit mb-1.5">
