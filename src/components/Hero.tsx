@@ -10,6 +10,12 @@ import {
   Users
 } from 'lucide-react';
 
+import coachingAfriqueStrategie from '@/src/assets/images/coaching_afrique_strategie_1782836353896.webp';
+import aboutCoaching from '@/src/assets/images/about_coaching_benin_1782833321123.webp';
+import academyTraining from '@/src/assets/images/academy_training_benin_1782901047713.webp';
+import cardFinancialOffice from '@/src/assets/images/card_financial_office_1782908169678.webp';
+import cardBusinessCreation from '@/src/assets/images/card_business_creation_1782908196304.webp';
+
 interface HeroProps {
   onOpenAppointment: () => void;
   onOpenWhatsApp: () => void;
@@ -27,27 +33,27 @@ export default function Hero({ onOpenAppointment, onOpenWhatsApp, onNavigateToSe
 
   const slides: SlideItem[] = [
     {
-      image: '/images/coaching_afrique_strategie_1782836353896.webp',
+      image: coachingAfriqueStrategie,
       title: 'Réunion Stratégique',
       description: 'Conseil business sur-mesure et plan de croissance avec nos experts'
     },
     {
-      image: '/images/about_coaching_benin_1782833321123.webp',
+      image: aboutCoaching,
       title: 'Coaching Business',
       description: 'Accompagnement de proximité par des conseillers qualifiés et d’expérience'
     },
     {
-      image: '/images/academy_training_benin_1782901047713.webp',
+      image: academyTraining,
       title: 'Formation Entrepreneuriale',
       description: 'Ateliers collectifs pratiques pour propulser votre réussite commerciale'
     },
     {
-      image: '/images/card_financial_office_1782908169678.webp',
+      image: cardFinancialOffice,
       title: 'Analyse Financière & Business Plan',
       description: 'Projections financières robustes pour rassurer vos partenaires bancaires'
     },
     {
-      image: '/images/card_business_creation_1782908196304.webp',
+      image: cardBusinessCreation,
       title: 'Création d’Entreprise',
       description: 'Formalisation légale, RCCM, IFU et immatriculation APIEx rapide'
     }

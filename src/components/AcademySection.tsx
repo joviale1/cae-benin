@@ -18,6 +18,14 @@ import {
   Send
 } from 'lucide-react';
 
+import cardSalesStrategy from '@/src/assets/images/card_sales_strategy_1782908156281.webp';
+import cardFinancialOffice from '@/src/assets/images/card_financial_office_1782908169678.webp';
+import cardDigitalMarketing from '@/src/assets/images/card_digital_marketing_1782908183274.webp';
+import academyTraining from '@/src/assets/images/academy_training_benin_1782901047713.webp';
+import cardBusinessCreation from '@/src/assets/images/card_business_creation_1782908196304.webp';
+import coachingAfriqueStrategie from '@/src/assets/images/coaching_afrique_strategie_1782836353896.webp';
+import cardPitchInvestor from '@/src/assets/images/card_pitch_investor_1782908208185.webp';
+
 interface DomainItem {
   id: string;
   title: string;
@@ -57,7 +65,7 @@ export default function AcademySection() {
       color: 'text-[#0a3b8b]',
       lightBg: 'bg-blue-50/70',
       borderColor: 'border-blue-100 hover:border-blue-400',
-      image: '/images/card_sales_strategy_1782908156281.webp'
+      image: cardSalesStrategy
     },
     {
       id: 'finances',
@@ -74,7 +82,7 @@ export default function AcademySection() {
       color: 'text-emerald-600',
       lightBg: 'bg-emerald-50/70',
       borderColor: 'border-emerald-100 hover:border-emerald-400',
-      image: '/images/card_financial_office_1782908169678.webp'
+      image: cardFinancialOffice
     },
     {
       id: 'marketing',
@@ -95,7 +103,7 @@ export default function AcademySection() {
       color: 'text-[#ff7b00]',
       lightBg: 'bg-orange-50/70',
       borderColor: 'border-orange-100 hover:border-orange-400',
-      image: '/images/card_digital_marketing_1782908183274.webp'
+      image: cardDigitalMarketing
     },
     {
       id: 'organisation',
@@ -112,7 +120,7 @@ export default function AcademySection() {
       color: 'text-indigo-600',
       lightBg: 'bg-indigo-50/70',
       borderColor: 'border-indigo-100 hover:border-indigo-400',
-      image: '/images/academy_training_benin_1782901047713.webp'
+      image: academyTraining
     },
     {
       id: 'creation',
@@ -128,7 +136,7 @@ export default function AcademySection() {
       color: 'text-amber-500',
       lightBg: 'bg-amber-50/70',
       borderColor: 'border-amber-100 hover:border-amber-400',
-      image: '/images/card_business_creation_1782908196304.webp'
+      image: cardBusinessCreation
     },
     {
       id: 'developpement',
@@ -146,7 +154,7 @@ export default function AcademySection() {
       color: 'text-purple-600',
       lightBg: 'bg-purple-50/70',
       borderColor: 'border-purple-100 hover:border-purple-400',
-      image: '/images/coaching_afrique_strategie_1782836353896.webp'
+      image: coachingAfriqueStrategie
     },
     {
       id: 'financement',
@@ -162,7 +170,7 @@ export default function AcademySection() {
       color: 'text-sky-600',
       lightBg: 'bg-sky-50/70',
       borderColor: 'border-sky-100 hover:border-sky-400',
-      image: '/images/card_pitch_investor_1782908208185.webp'
+      image: cardPitchInvestor
     },
     {
       id: 'pratiques',
@@ -180,7 +188,7 @@ export default function AcademySection() {
       color: 'text-rose-600',
       lightBg: 'bg-rose-50/70',
       borderColor: 'border-rose-100 hover:border-rose-400',
-      image: '/images/academy_training_benin_1782901047713.webp'
+      image: academyTraining
     }
   ];
 

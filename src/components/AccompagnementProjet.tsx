@@ -12,6 +12,7 @@ import {
   TrendingUp,
   Award
 } from 'lucide-react';
+import coachingAfriqueStrategie from '@/src/assets/images/coaching_afrique_strategie_1782836353896.webp';
 
 export default function AccompagnementProjet() {
   const [activeStep, setActiveStep] = useState<number>(0);
@@ -244,7 +245,7 @@ export default function AccompagnementProjet() {
             {/* Realistic Coaching Photo with overlay text */}
             <div className="relative rounded-3xl overflow-hidden shadow-xl aspect-video border border-slate-100 group">
               <img 
-                src="/images/coaching_afrique_strategie_1782836353896.webp" 
+                src={coachingAfriqueStrategie} 
                 alt="Coaching stratégique au Bénin - Centre d'Appui aux Entrepreneurs" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 referrerPolicy="no-referrer"

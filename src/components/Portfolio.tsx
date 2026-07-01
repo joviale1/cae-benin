@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import { ProjectItem } from '../types';
 import { initialProjects } from '../data';
 import { Upload, Plus, FolderHeart, Check, Briefcase, FileImage, UserPlus, HelpCircle } from 'lucide-react';
+import heroBeninEntrepreneurs from '@/src/assets/images/hero_benin_entrepreneurs_1782833306681.webp';
 
 interface PortfolioProps {
   customProjects: ProjectItem[];
@@ -73,7 +74,7 @@ export default function Portfolio({ customProjects, onAddProject }: PortfolioPro
     }
 
     // Default image if no upload was made
-    const finalImage = imagePreview || '/images/hero_benin_entrepreneurs_1782833306681.webp';
+    const finalImage = imagePreview || heroBeninEntrepreneurs;
 
     const newProj: ProjectItem = {
       id: `custom-proj-${Date.now()}`,

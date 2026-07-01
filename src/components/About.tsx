@@ -1,5 +1,6 @@
 import React from 'react';
 import { Shield, Award, Eye, HeartHandshake, Lightbulb, CheckCircle } from 'lucide-react';
+import aboutCoaching from '@/src/assets/images/about_coaching_benin_1782833321123.webp';
 
 export default function About() {
   const values = [
@@ -93,7 +94,7 @@ export default function About() {
           <div className="space-y-6">
             <div className="relative rounded-3xl overflow-hidden shadow-lg aspect-4/3 border border-slate-100 group">
               <img 
-                src="/images/about_coaching_benin_1782833321123.webp" 
+                src={aboutCoaching} 
                 alt="Conseiller d’affaires accompagnant un entrepreneur au Bénin" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 referrerPolicy="no-referrer"

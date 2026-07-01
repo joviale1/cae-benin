@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { servicesData } from '../data';
 import { ServiceItem } from '../types';
 import { Search, Plus, Check, FileSpreadsheet, Briefcase, GraduationCap, FileText, Globe, ArrowRight } from 'lucide-react';
+import servicesBrainstorming from '@/src/assets/images/services_brainstorming_benin_1782833335428.webp';
 
 interface ServicesListProps {
   onAddToDevis: (service: ServiceItem) => void;
@@ -86,7 +87,7 @@ export default function ServicesList({
           <div className="lg:col-span-5">
             <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/3] border border-slate-200/80 group">
               <img 
-                src="/images/services_brainstorming_benin_1782833335428.webp" 
+                src={servicesBrainstorming} 
                 alt="Équipe béninoise analysant des graphiques financiers" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 referrerPolicy="no-referrer"
