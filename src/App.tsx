@@ -6,6 +6,7 @@ import AccompagnementProjet from './components/AccompagnementProjet';
 import OrganisationCentre from './components/OrganisationCentre';
 import WhyChooseUs from './components/WhyChooseUs';
 import ServicesList from './components/ServicesList';
+import AcademySection from './components/AcademySection';
 import Portfolio from './components/Portfolio';
 import Testimonials from './components/Testimonials';
 import BlogActualites from './components/BlogActualites';
@@ -58,7 +59,7 @@ export default function App() {
       }
 
       // Live Section Observer
-      const sections = ['accueil', 'propos', 'organisation', 'services', 'pourquoi', 'portfolio', 'actualites', 'ressources', 'faq', 'contact'];
+      const sections = ['accueil', 'propos', 'organisation', 'services', 'academie', 'pourquoi', 'portfolio', 'actualites', 'ressources', 'faq', 'contact'];
       const scrollPosition = window.scrollY + 250;
 
       for (const section of sections) {
@@ -198,6 +199,9 @@ export default function App() {
         selectedServiceIdsInDevis={selectedServicesInDevis.map((s) => s.id)}
         onBookService={handleBookServiceImmediate}
       />
+
+      {/* Académie Entrepreneuriale — Centre de Formation & Ressources */}
+      <AcademySection />
 
       {/* Pourquoi nous choisir ? */}
       <WhyChooseUs />

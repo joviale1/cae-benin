@@ -129,6 +129,7 @@ export default function Navbar({
     { label: 'Accompagnement', id: 'accompagnement' },
     { label: 'Organisation', id: 'organisation' },
     { label: 'Nos Services', id: 'services' },
+    { label: 'Académie', id: 'academie' },
     { label: 'Pourquoi nous ?', id: 'pourquoi' },
     { label: 'Projets', id: 'portfolio' },
     { label: 'Actualités', id: 'actualites' },
