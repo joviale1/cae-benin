@@ -114,7 +114,11 @@ export const servicesData: ServiceItem[] = [
     name: 'Conception Graphique (Logo, Affiche)',
     price: 20000,
     category: 'digital',
-    description: 'Création d’une identité visuelle unique comprenant votre export const initialProjects: ProjectItem[] = [
+    description: 'Création d’une identité visuelle unique comprenant votre logo, vos chartes graphiques et vos supports de communication.'
+  }
+];
+
+export const initialProjects: ProjectItem[] = [
   {
     id: 'proj-1',
     title: 'Agro-Innov Bénin',
@@ -229,8 +233,8 @@ export const faqData: FAQItem[] = [
   {
     id: 'faq-3',
     question: 'Qu’est-ce que l’APIEx et quel est son rôle au Bénin ?',
-    answer: 'L’Agence de Promotion des Investissements et des Exportations (APIEx) est le guichet unique de création d’entreprise au Bénin. Elle regroupe tous les services (greffe du tribunal pour le RCCM, impôts pour le numéro IFU, ministère du travail pour la déclaration d’établissement) et permet de formaliser son entreprise en 24 à 48 heures lorsque le dossier est conforme.',
-    category: 'procedures'
+    answer: 'L’Agence de Promotion des Investissements et des Exportations (APIEx) est le guichet unique de création d’entreprise au Bénin. Elle simplifie, accélère et centralise toutes les formalités d’immatriculation, de déclaration et de délivrance d’actes d’entreprises.',
+    category: 'creation'
   },
   {
     id: 'faq-4',
@@ -267,9 +271,5 @@ export const testimonialsData: TestimonialItem[] = [
     text: 'Le diagnostic d’entreprise réalisé par leurs consultants d’affaires a été un électrochoc pour notre startup. Nous avons restructuré nos offres commerciales et relancé notre chiffre d’affaires en hausse de 40% en seulement 4 mois d’activité.',
     rating: 5,
     avatarUrl: '/images/about_coaching_benin_1782833321123.jpg'
-  }
-];� par leurs consultants d’affaires a été un électrochoc pour notre startup. Nous avons restructuré nos offres commerciales et relancé notre chiffre d’affaires en hausse de 40% en seulement 4 mois d’activité.',
-    rating: 5,
-    avatarUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=120'
   }
 ];

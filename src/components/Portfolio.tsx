@@ -73,7 +73,7 @@ export default function Portfolio({ customProjects, onAddProject }: PortfolioPro
     }
 
     // Default image if no upload was made
-    const finalImage = imagePreview || 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=600';
+    const finalImage = imagePreview || '/images/hero_benin_entrepreneurs_1782833306681.jpg';
 
     const newProj: ProjectItem = {
       id: `custom-proj-${Date.now()}`,
