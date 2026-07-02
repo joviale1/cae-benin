@@ -1,6 +1,6 @@
 import React from 'react';
 import { Shield, Award, Eye, HeartHandshake, Lightbulb, CheckCircle } from 'lucide-react';
-import aboutCoaching from '@/src/assets/images/about_coaching_benin_1782833321123.webp';
+import aboutCoaching from '../assets/images/about_coaching_benin_1782833321123.webp';
 
 export default function About() {
   const values = [

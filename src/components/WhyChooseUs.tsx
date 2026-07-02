@@ -1,6 +1,6 @@
 import React from 'react';
 import { ShieldCheck, UserCheck, Zap, Coins, HeartHandshake, Puzzle } from 'lucide-react';
-import handshakeSuccess from '@/src/assets/images/handshake_success_benin_1782833348521.webp';
+import handshakeSuccess from '../assets/images/handshake_success_benin_1782833348521.webp';
 
 export default function WhyChooseUs() {
   const points = [

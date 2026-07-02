@@ -12,7 +12,7 @@ import {
   TrendingUp,
   Award
 } from 'lucide-react';
-import coachingAfriqueStrategie from '@/src/assets/images/coaching_afrique_strategie_1782836353896.webp';
+import coachingAfriqueStrategie from '../assets/images/coaching_afrique_strategie_1782836353896.webp';
 
 export default function AccompagnementProjet() {
   const [activeStep, setActiveStep] = useState<number>(0);

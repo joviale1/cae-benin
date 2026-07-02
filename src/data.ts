@@ -1,13 +1,13 @@
 import { ServiceItem, ProjectItem, NewsItem, ResourceItem, FAQItem, TestimonialItem } from './types';
-import servicesBrainstorming from '@/src/assets/images/services_brainstorming_benin_1782833335428.webp';
-import cardDigitalMarketing from '@/src/assets/images/card_digital_marketing_1782908183274.webp';
-import aboutCoaching from '@/src/assets/images/about_coaching_benin_1782833321123.webp';
-import cardPitchInvestor from '@/src/assets/images/card_pitch_investor_1782908208185.webp';
-import cardSalesStrategy from '@/src/assets/images/card_sales_strategy_1782908156281.webp';
-import cardFinancialOffice from '@/src/assets/images/card_financial_office_1782908169678.webp';
-import academyTraining from '@/src/assets/images/academy_training_benin_1782901047713.webp';
-import clientHappyContract from '@/src/assets/images/client_happy_contract_benin_1782833365960.webp';
-import coachingAfriqueStrategie from '@/src/assets/images/coaching_afrique_strategie_1782836353896.webp';
+import servicesBrainstorming from './assets/images/services_brainstorming_benin_1782833335428.webp';
+import cardDigitalMarketing from './assets/images/card_digital_marketing_1782908183274.webp';
+import aboutCoaching from './assets/images/about_coaching_benin_1782833321123.webp';
+import cardPitchInvestor from './assets/images/card_pitch_investor_1782908208185.webp';
+import cardSalesStrategy from './assets/images/card_sales_strategy_1782908156281.webp';
+import cardFinancialOffice from './assets/images/card_financial_office_1782908169678.webp';
+import academyTraining from './assets/images/academy_training_benin_1782901047713.webp';
+import clientHappyContract from './assets/images/client_happy_contract_benin_1782833365960.webp';
+import coachingAfriqueStrategie from './assets/images/coaching_afrique_strategie_1782836353896.webp';
 
 export const servicesData: ServiceItem[] = [
   // Consultation / Conseil

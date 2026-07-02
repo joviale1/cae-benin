@@ -10,11 +10,11 @@ import {
   Users
 } from 'lucide-react';
 
-import coachingAfriqueStrategie from '@/src/assets/images/coaching_afrique_strategie_1782836353896.webp';
-import aboutCoaching from '@/src/assets/images/about_coaching_benin_1782833321123.webp';
-import academyTraining from '@/src/assets/images/academy_training_benin_1782901047713.webp';
-import cardFinancialOffice from '@/src/assets/images/card_financial_office_1782908169678.webp';
-import cardBusinessCreation from '@/src/assets/images/card_business_creation_1782908196304.webp';
+import coachingAfriqueStrategie from '../assets/images/coaching_afrique_strategie_1782836353896.webp';
+import aboutCoaching from '../assets/images/about_coaching_benin_1782833321123.webp';
+import academyTraining from '../assets/images/academy_training_benin_1782901047713.webp';
+import cardFinancialOffice from '../assets/images/card_financial_office_1782908169678.webp';
+import cardBusinessCreation from '../assets/images/card_business_creation_1782908196304.webp';
 
 interface HeroProps {
   onOpenAppointment: () => void;

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { servicesData } from '../data';
 import { ServiceItem } from '../types';
 import { Search, Plus, Check, FileSpreadsheet, Briefcase, GraduationCap, FileText, Globe, ArrowRight } from 'lucide-react';
-import servicesBrainstorming from '@/src/assets/images/services_brainstorming_benin_1782833335428.webp';
+import servicesBrainstorming from '../assets/images/services_brainstorming_benin_1782833335428.webp';
 
 interface ServicesListProps {
   onAddToDevis: (service: ServiceItem) => void;

@@ -18,13 +18,13 @@ import {
   Send
 } from 'lucide-react';
 
-import cardSalesStrategy from '@/src/assets/images/card_sales_strategy_1782908156281.webp';
-import cardFinancialOffice from '@/src/assets/images/card_financial_office_1782908169678.webp';
-import cardDigitalMarketing from '@/src/assets/images/card_digital_marketing_1782908183274.webp';
-import academyTraining from '@/src/assets/images/academy_training_benin_1782901047713.webp';
-import cardBusinessCreation from '@/src/assets/images/card_business_creation_1782908196304.webp';
-import coachingAfriqueStrategie from '@/src/assets/images/coaching_afrique_strategie_1782836353896.webp';
-import cardPitchInvestor from '@/src/assets/images/card_pitch_investor_1782908208185.webp';
+import cardSalesStrategy from '../assets/images/card_sales_strategy_1782908156281.webp';
+import cardFinancialOffice from '../assets/images/card_financial_office_1782908169678.webp';
+import cardDigitalMarketing from '../assets/images/card_digital_marketing_1782908183274.webp';
+import academyTraining from '../assets/images/academy_training_benin_1782901047713.webp';
+import cardBusinessCreation from '../assets/images/card_business_creation_1782908196304.webp';
+import coachingAfriqueStrategie from '../assets/images/coaching_afrique_strategie_1782836353896.webp';
+import cardPitchInvestor from '../assets/images/card_pitch_investor_1782908208185.webp';
 
 interface DomainItem {
   id: string;
