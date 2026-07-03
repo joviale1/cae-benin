@@ -107,7 +107,7 @@ export default function FAQSection() {
           </div>
           <button
             onClick={() => {
-              const whatsappUrl = `https://wa.me/23761781115?text=Bonjour, j'ai une question sur les services d'accompagnement.`;
+              const whatsappUrl = `https://wa.me/2290165848010?text=Bonjour, j'ai une question sur les services d'accompagnement.`;
               window.open(whatsappUrl, '_blank');
             }}
             className="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded-xl transition-all shadow-sm cursor-pointer"

@@ -76,7 +76,7 @@ export default function QuoteCalculator({
       .join('%0A');
 
     const whatsappMessage = `Bonjour, je souhaite obtenir un devis officiel.%0A%0A*DEVIS RÉFÉRANCE :* ${generatedDevisNo}%0A*Nom:* ${clientName}%0A*Téléphone:* ${clientPhone}%0A%0A*PRESTATIONS DEMANDÉES :*%0A${serviceListStr}%0A%0A*TOTAL ESTIMÉ :* *${total.toLocaleString('fr-FR')} FCFA*%0A%0A_Merci de me recontacter pour valider ce devis._`;
-    const whatsappUrl = `https://wa.me/23761781115?text=${whatsappMessage}`;
+    const whatsappUrl = `https://wa.me/2290165848010?text=${whatsappMessage}`;
     window.open(whatsappUrl, '_blank');
   };
 

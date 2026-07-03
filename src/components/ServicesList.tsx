@@ -3,7 +3,7 @@ import { servicesData } from '../data';
 import { ServiceItem } from '../types';
 import { Search, Plus, Check, FileSpreadsheet, Briefcase, GraduationCap, FileText, Globe, ArrowRight } from 'lucide-react';
 
-const servicesBrainstorming = "https://images.unsplash.com/photo-1531535934202-f0d45309b403?auto=format&fit=crop&w=800&q=65";
+const servicesBrainstorming = "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a9?auto=format&fit=crop&w=800&q=65";
 
 interface ServicesListProps {
   onAddToDevis: (service: ServiceItem) => void;

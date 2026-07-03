@@ -1,7 +1,7 @@
 import React from 'react';
 import { Shield, Award, Eye, HeartHandshake, Lightbulb, CheckCircle } from 'lucide-react';
 
-const aboutCoaching = "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=65";
+const aboutCoaching = "https://images.unsplash.com/photo-1589156280159-27698a70f29e?auto=format&fit=crop&w=800&q=65";
 
 export default function About() {
   const values = [

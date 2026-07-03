@@ -1,13 +1,13 @@
 import { ServiceItem, ProjectItem, NewsItem, ResourceItem, FAQItem, TestimonialItem } from './types';
 
-const servicesBrainstorming = "https://images.unsplash.com/photo-1531535934202-f0d45309b403?auto=format&fit=crop&w=800&q=65";
-const cardDigitalMarketing = "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=65";
-const aboutCoaching = "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=65";
-const cardPitchInvestor = "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=65";
-const cardSalesStrategy = "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=65";
-const cardFinancialOffice = "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=65";
-const academyTraining = "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=65";
-const clientHappyContract = "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=65";
+const servicesBrainstorming = "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a9?auto=format&fit=crop&w=800&q=65";
+const cardDigitalMarketing = "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=65";
+const aboutCoaching = "https://images.unsplash.com/photo-1589156280159-27698a70f29e?auto=format&fit=crop&w=800&q=65";
+const cardPitchInvestor = "https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?auto=format&fit=crop&w=800&q=65";
+const cardSalesStrategy = "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=65";
+const cardFinancialOffice = "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&w=800&q=65";
+const academyTraining = "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=65";
+const clientHappyContract = "https://images.unsplash.com/photo-1573164713619-24c711fe7878?auto=format&fit=crop&w=800&q=65";
 const coachingAfriqueStrategie = "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=65";
 
 export const servicesData: ServiceItem[] = [

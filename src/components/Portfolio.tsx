@@ -3,7 +3,7 @@ import { ProjectItem } from '../types';
 import { initialProjects } from '../data';
 import { Upload, Plus, FolderHeart, Check, Briefcase, FileImage, UserPlus, HelpCircle } from 'lucide-react';
 
-const heroBeninEntrepreneurs = "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=65";
+const heroBeninEntrepreneurs = "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=65";
 
 interface PortfolioProps {
   customProjects: ProjectItem[];
