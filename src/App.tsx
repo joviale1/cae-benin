@@ -18,6 +18,9 @@ import QuoteCalculator from './components/QuoteCalculator';
 import { ServiceItem, ProjectItem, Appointment } from './types';
 import { Sparkles, Phone, MessageSquare, ArrowUp, Send, CheckCircle, BellRing } from 'lucide-react';
 
+// REMPLACER ICI : Mettez le chemin relatif (ex: "/logo.png") ou l'URL absolue de votre logo
+const logoUrl = "/IMG-20260628-WA0020.jpg";
+
 export default function App() {
   const [activeSection, setActiveSection] = useState('accueil');
   const [selectedServicesInDevis, setSelectedServicesInDevis] = useState<ServiceItem[]>([]);
@@ -240,9 +243,13 @@ export default function App() {
             {/* Branding column */}
             <div className="space-y-4">
               <div className="flex items-center space-x-2.5">
-                <div className="w-10 h-10 rounded-xl bg-[#0a3b8b] flex items-center justify-center text-white font-bold text-lg">
-                  C
-                </div>
+                {logoUrl ? (
+                  <img src={logoUrl} alt="Logo" className="h-10 w-auto object-contain" referrerPolicy="no-referrer" />
+                ) : (
+                  <div className="w-10 h-10 rounded-xl bg-[#0a3b8b] flex items-center justify-center text-white font-bold text-lg">
+                    C
+                  </div>
+                )}
                 <div>
                   <h4 className="text-sm font-black uppercase leading-tight tracking-wider">Centre d’Appui</h4>
                   <p className="text-[10px] font-bold text-[#ff7b00] uppercase tracking-wider">aux Entrepreneurs</p>

@@ -3,6 +3,9 @@ import { Search, Phone, BookOpen, Menu, X, ArrowRight, Sparkles, Filter } from '
 import { servicesData, newsData, faqData, initialProjects, resourcesData } from '../data';
 import { ServiceItem, NewsItem, FAQItem, ProjectItem, ResourceItem } from '../types';
 
+// REMPLACER ICI : Mettez le chemin relatif (ex: "/logo.png") ou l'URL absolue de votre logo
+const logoUrl = "/IMG-20260628-WA0020.jpg";
+
 interface NavbarProps {
   onNavigate: (sectionId: string) => void;
   activeSection: string;
@@ -149,13 +152,17 @@ export default function Navbar({
             className="flex items-center space-x-3 cursor-pointer shrink-0"
             id="nav-logo"
           >
-            {/* Minimal SVG recreate of the logo shape for extreme professional look */}
-            <div className="w-11 h-11 bg-gradient-to-tr from-[#0a3b8b] to-[#1e5dbb] rounded-xl flex items-center justify-center text-white font-bold text-xl relative shadow-md shadow-blue-200">
-              C
-              <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-[#ff7b00] rounded-lg flex items-center justify-center text-[10px] font-black shadow-sm">
-                A
+            {logoUrl ? (
+              <img src={logoUrl} alt="Logo" className="h-12 w-auto object-contain" referrerPolicy="no-referrer" />
+            ) : (
+              /* Minimal SVG recreate of the logo shape for extreme professional look */
+              <div className="w-11 h-11 bg-gradient-to-tr from-[#0a3b8b] to-[#1e5dbb] rounded-xl flex items-center justify-center text-white font-bold text-xl relative shadow-md shadow-blue-200">
+                C
+                <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-[#ff7b00] rounded-lg flex items-center justify-center text-[10px] font-black shadow-sm">
+                  A
+                </div>
               </div>
-            </div>
+            )}
             <div className="hidden md:block">
               <span className="block font-black text-[#0a3b8b] tracking-tight text-lg leading-tight uppercase">
                 Centre d’Appui
