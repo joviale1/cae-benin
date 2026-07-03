@@ -1,13 +1,14 @@
 import { ServiceItem, ProjectItem, NewsItem, ResourceItem, FAQItem, TestimonialItem } from './types';
-import servicesBrainstorming from './assets/images/services_brainstorming_benin_1782833335428.webp';
-import cardDigitalMarketing from './assets/images/card_digital_marketing_1782908183274.webp';
-import aboutCoaching from './assets/images/about_coaching_benin_1782833321123.webp';
-import cardPitchInvestor from './assets/images/card_pitch_investor_1782908208185.webp';
-import cardSalesStrategy from './assets/images/card_sales_strategy_1782908156281.webp';
-import cardFinancialOffice from './assets/images/card_financial_office_1782908169678.webp';
-import academyTraining from './assets/images/academy_training_benin_1782901047713.webp';
-import clientHappyContract from './assets/images/client_happy_contract_benin_1782833365960.webp';
-import coachingAfriqueStrategie from './assets/images/coaching_afrique_strategie_1782836353896.webp';
+
+const servicesBrainstorming = "https://images.unsplash.com/photo-1531535934202-f0d45309b403?auto=format&fit=crop&w=800&q=65";
+const cardDigitalMarketing = "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=65";
+const aboutCoaching = "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=65";
+const cardPitchInvestor = "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=65";
+const cardSalesStrategy = "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=65";
+const cardFinancialOffice = "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=65";
+const academyTraining = "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=65";
+const clientHappyContract = "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=65";
+const coachingAfriqueStrategie = "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=65";
 
 export const servicesData: ServiceItem[] = [
   // Consultation / Conseil
